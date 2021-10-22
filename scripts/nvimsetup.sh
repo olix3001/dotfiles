@@ -9,4 +9,4 @@ sudo sh -c 'curl -fLo "${XDG_DATA_HOME:-$HOME/.local/share}"/nvim/site/autoload/
 
 # copy config into nvim directory
 sudo mkdir ~/.config/nvim
-sudo ln -s ../init.vim ~/.config/nvim/init.vim
+sudo cp ../init.vim ~/.config/nvim/init.vim
